@@ -71,6 +71,10 @@ public class CalorieUtils {
         System.out.println("grade=" + grade);
         return getCalorie(start, stop, grade, weight, activityType);
     }
+    
+    public static void Foo(){
+        System.out.println("Hello, world!");
+    }
 
     public static double getCalorie(Location start, Location stop, double grade, double weight, ActivityType activityType) {
         if (activityType == ActivityType.INVALID) {
